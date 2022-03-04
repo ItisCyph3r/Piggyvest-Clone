@@ -1,0 +1,291 @@
+* {
+  outline: 0px solid red;
+}
+body {
+  font-family: 'DM Sans';
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: black;
+}
+.nav-link {
+  color: black;
+}
+.container {
+  width: 100%;
+}
+.navbar {
+  height: 70px;
+  font-family: 'Open Sans';
+  font-size: 0.95rem;
+  margin: 15px;
+  z-index: 10;
+  gap: 40px;
+}
+.headerbtn {
+}
+.signInbtn {
+  /* height: 50px; */
+  outline: 1px solid #353535;
+}
+.createNewbtn {
+  border: none;
+  /* margin-top: 10px; */
+}
+.signInbtn:hover {
+  outline: 1px solid #0d60d8;
+  color: #0d60d8;
+}
+.createNewbtn:hover {
+  background-color: #0d60d8;
+}
+.dropdown-pad {
+  padding-top: 230px;
+}
+.showcase {
+  margin-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  z-index: 1;
+}
+.showcaseText {
+  font-size: 3rem;
+  /* line-height: 82.42px; */
+  font-family: 'U8';
+  font-weight: 700;
+  color: #0c1825;
+  margin-top: 50px;
+}
+.adStorebtn {
+  margin-top: 0px;
+  /* height: 50px; */
+  outline: 1px solid #f8f9fa;
+  margin-left: 0px;
+  padding: 10px;
+  border-radius: 10px;
+  /* width: 30%; */
+  border: none;
+}
+.adStorebtn:hover {
+  outline: 1px solid #0d60d8;
+  color: #0d60d8;
+  position: relative;
+  bottom: 5px;
+  transition-timing-function: linear;
+}
+.priority {
+  margin: 150px auto;
+  gap: 40px;
+  /* margin-top: 300px; */
+  /* margin-top: 200px; */
+  /* padding: 20px; */
+  /* gap: 50px; */
+  /* display: grid; */
+  /* grid-template-columns: 35% 65%; */
+}
+.security-img {
+  width: 100%;
+  /* float: left; */
+  padding: 20px;
+}
+.shield {
+  /* width: 45%; */
+  width: 1vw;
+}
+.shield-dfkm {
+  /* width: 100%; */
+  justify-content: end;
+  display: flex;
+}
+.shield {
+  width: 1vw;
+  padding: ;
+}
+.priority-text {
+  padding: 20px;
+}
+.priority-arrow {
+  margin-top: 5px;
+}
+
+.savings {
+  margin-bottom: 150px;
+}
+.card-hehe-1 {
+  font-family: 'U8';
+  font-weight: 700;
+  color: #0c1825;
+}
+.cards-main {
+  margin-top: 36px;
+  font-family: 'U8';
+  font-weight: 700;
+  color: #0c1825;
+}
+.cards-empty {
+  margin-top: 36px;
+  font-family: 'U8';
+  font-weight: 700;
+  color: #0c1825;
+}
+.main {
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+.cards {
+  /* width: 50%; */
+  /* height: 200px; */
+  /* padding: 20px; */
+  background-color: #f9f9f9;
+  border-radius: 20px;
+  /* border-left: 0px solid white;*/
+
+  border-right: 20px solid rgb(255, 255, 255);
+  /* gap: 20px; */
+}
+.safelock {
+  width: 5vw;
+  height: auto;
+}
+.piggy-icon {
+  color: #033499;
+}
+.safelock-icon {
+  color: #3698ff;
+}
+.target-icon {
+  color: #008c25;
+}
+.flex-icon {
+  color: #e31f89;
+}
+.savings-text {
+  /* margin-bottom: 100px; */
+  /* margin-left: 10px; */
+  position: relative;
+  bottom: 5px;
+}
+.investment {
+  margin-bottom: 150px;
+}
+.invest-img {
+  width: 65%;
+}
+.investment-content {
+  padding: 7%;
+}
+.investment-content a {
+  color: #7913e5;
+}
+.returns {
+  /* width: 40%; */
+  font-size: 1.25rem;
+  background-color: #f7f0ff;
+  border-radius: 50px;
+  padding: 10px;
+}
+.invest-header {
+  font-size: 3rem;
+  font-family: 'U8';
+  font-weight: 700;
+  color: #0c1825;
+}
+.subtext {
+  color: #353535;
+}
+.mvp {
+  width: 99%;
+  margin-bottom: 150px;
+}
+.mvp-text {
+  background-color: #0d60d8;
+  /* height: 500px; */
+  padding: 8%;
+}
+.mvp-img {
+  width: 100%;
+  height: 100%;
+}
+.mvp-header-text {
+  font-size: 3rem;
+  font-family: 'U8';
+  font-weight: 700;
+  color: #ffffff;
+}
+.investment-icon {
+  margin-top: 50px;
+  color: white;
+}
+.mvp-name {
+  position: relative;
+  bottom: 6px;
+  left: 10px;
+  font-weight: 700;
+  color: white;
+  font-family: 'U8';
+}
+.customers {
+  margin-bottom: 150px;
+}
+.customer-text {
+  padding: 5%;
+}
+.customer-header-text {
+  font-size: 2rem;
+  font-family: 'U8';
+  font-weight: 700;
+  color: #000000;
+}
+.sponsors {
+  padding: 8%;
+  background-color: #f9f9f9;
+}
+.sponsor-header {
+  font-size: 2rem;
+  font-family: 'U8';
+  font-weight: 700;
+  color: #000000;
+}
+.sponsor-img-grid {
+  gap: 30px;
+}
+.sponsor-img {
+  /* gap: 30px; */
+  width: 65%;
+  height: 10%;
+}
+@media (max-width: 1024px) {
+  body {
+    text-align: center;
+  }
+  .priority {
+    text-align: center;
+    /* grid-template-columns: 100%; */
+  }
+  .security-img {
+    float: none;
+  }
+  .showcase-img {
+    margin-top: 20px;
+  }
+  .shield-dfkm {
+    justify-content: center;
+  }
+}
+@media (max-width: 1024px) {
+  /* .shield {
+    width: 34%;
+  } */
+  .card1 {
+    /* width: 100%; */
+  }
+}
+.roomy {
+  height: 1000px;
+}
